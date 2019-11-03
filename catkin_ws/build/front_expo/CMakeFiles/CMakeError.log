@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/rivindu/frontier_expo/catkin_ws/build/front_expo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97908/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97908.dir/build.make CMakeFiles/cmTC_97908.dir/build
+make[1]: Entering directory '/home/rivindu/frontier_expo/catkin_ws/build/front_expo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97908.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_97908.dir/CheckSymbolExists.c.o   -c /home/rivindu/frontier_expo/catkin_ws/build/front_expo/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_97908
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97908.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_97908.dir/CheckSymbolExists.c.o  -o cmTC_97908 
+CMakeFiles/cmTC_97908.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_97908.dir/build.make:97: recipe for target 'cmTC_97908' failed
+make[1]: *** [cmTC_97908] Error 1
+make[1]: Leaving directory '/home/rivindu/frontier_expo/catkin_ws/build/front_expo/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_97908/fast' failed
+make: *** [cmTC_97908/fast] Error 2
+
+File /home/rivindu/frontier_expo/catkin_ws/build/front_expo/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/rivindu/frontier_expo/catkin_ws/build/front_expo/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d46e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5d46e.dir/build.make CMakeFiles/cmTC_5d46e.dir/build
+make[1]: Entering directory '/home/rivindu/frontier_expo/catkin_ws/build/front_expo/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d46e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5d46e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5d46e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d46e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5d46e.dir/CheckFunctionExists.c.o  -o cmTC_5d46e -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5d46e.dir/build.make:97: recipe for target 'cmTC_5d46e' failed
+make[1]: *** [cmTC_5d46e] Error 1
+make[1]: Leaving directory '/home/rivindu/frontier_expo/catkin_ws/build/front_expo/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5d46e/fast' failed
+make: *** [cmTC_5d46e/fast] Error 2
+
+

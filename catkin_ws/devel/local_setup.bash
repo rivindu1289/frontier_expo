@@ -1,0 +1,1 @@
+/home/rivindu/frontier_expo/catkin_ws/devel/.private/catkin_tools_prebuild/local_setup.bash

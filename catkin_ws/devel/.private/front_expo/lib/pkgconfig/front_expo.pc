@@ -1,0 +1,8 @@
+prefix=/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo
+
+Name: front_expo
+Description: Description of front_expo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/lib 
+Requires: 
