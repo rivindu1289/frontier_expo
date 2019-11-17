@@ -129,7 +129,55 @@ file(INSTALL DESTINATION "/home/rivindu/frontier_expo/catkin_ws/install" TYPE FI
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/front_expo/action" TYPE FILE FILES "/home/rivindu/frontier_expo/catkin_ws/src/front_expo/action/DoDishes.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/front_expo/msg" TYPE FILE FILES
+    "/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/share/front_expo/msg/DoDishesAction.msg"
+    "/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/share/front_expo/msg/DoDishesActionGoal.msg"
+    "/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/share/front_expo/msg/DoDishesActionResult.msg"
+    "/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/share/front_expo/msg/DoDishesActionFeedback.msg"
+    "/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/share/front_expo/msg/DoDishesGoal.msg"
+    "/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/share/front_expo/msg/DoDishesResult.msg"
+    "/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/share/front_expo/msg/DoDishesFeedback.msg"
+    )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/front_expo/cmake" TYPE FILE FILES "/home/rivindu/frontier_expo/catkin_ws/build/front_expo/catkin_generated/installspace/front_expo-msg-paths.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/include/front_expo")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/share/roseus/ros/front_expo")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/share/common-lisp/ros/front_expo")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/share/gennodejs/ros/front_expo")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/lib/python2.7/dist-packages/front_expo")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/lib/python2.7/dist-packages/front_expo")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/rivindu/frontier_expo/catkin_ws/build/front_expo/catkin_generated/installspace/front_expo.pc")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/front_expo/cmake" TYPE FILE FILES "/home/rivindu/frontier_expo/catkin_ws/build/front_expo/catkin_generated/installspace/front_expo-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

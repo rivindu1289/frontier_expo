@@ -3,6 +3,6 @@ prefix=/home/rivindu/frontier_expo/catkin_ws/install
 Name: front_expo
 Description: Description of front_expo
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/rivindu/frontier_expo/catkin_ws/install/include
 Libs: -L/home/rivindu/frontier_expo/catkin_ws/install/lib 
 Requires: 
