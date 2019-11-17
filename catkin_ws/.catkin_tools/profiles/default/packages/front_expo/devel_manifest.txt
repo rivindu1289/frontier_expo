@@ -10,6 +10,8 @@ front_expo
 /home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/lib/python2.7/dist-packages/front_expo/msg/_DoDishesActionGoal.py /home/rivindu/frontier_expo/catkin_ws/devel/lib/python2.7/dist-packages/front_expo/msg/_DoDishesActionGoal.py
 /home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/lib/python2.7/dist-packages/front_expo/msg/_DoDishesActionResult.py /home/rivindu/frontier_expo/catkin_ws/devel/lib/python2.7/dist-packages/front_expo/msg/_DoDishesActionResult.py
 /home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/lib/pkgconfig/front_expo.pc /home/rivindu/frontier_expo/catkin_ws/devel/lib/pkgconfig/front_expo.pc
+/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/lib/front_expo/talker /home/rivindu/frontier_expo/catkin_ws/devel/lib/front_expo/talker
+/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/lib/front_expo/listener /home/rivindu/frontier_expo/catkin_ws/devel/lib/front_expo/listener
 /home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/include/front_expo/DoDishesActionGoal.h /home/rivindu/frontier_expo/catkin_ws/devel/include/front_expo/DoDishesActionGoal.h
 /home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/include/front_expo/DoDishesAction.h /home/rivindu/frontier_expo/catkin_ws/devel/include/front_expo/DoDishesAction.h
 /home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/include/front_expo/DoDishesActionResult.h /home/rivindu/frontier_expo/catkin_ws/devel/include/front_expo/DoDishesActionResult.h

@@ -1,0 +1,41 @@
+[31m[1mCMake Error[0m at /home/rivindu/frontier_expo/catkin_ws/src/front_expo/CMakeLists.txt:209 (add_executable):
+  Cannot find source file:
+
+    src/talker.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/rivindu/frontier_expo/catkin_ws/src/front_expo/CMakeLists.txt:213 (add_executable):
+  Cannot find source file:
+
+    src/listener.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Warning (dev) at CMakeLists.txt:211 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "beginner_tutorials_generate_messages_cpp" of target
+  "talker" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:215 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "beginner_tutorials_generate_messages_cpp" of target
+  "listener" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error: CMake can not determine linker language for target: talker
+CMake Error: Cannot determine link language for target "talker".
+CMake Error: CMake can not determine linker language for target: listener
+CMake Error: Cannot determine link language for target "listener".
+make: *** [cmake_check_build_system] Error 1

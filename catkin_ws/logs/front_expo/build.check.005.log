@@ -18,6 +18,24 @@
 [36m--[0m Generating .msg files for action front_expo/DoDishes /home/rivindu/frontier_expo/catkin_ws/src/front_expo/action/DoDishes.action
 [36m--[0m front_expo: 7 messages, 0 services
 [36m--[0m Configuring done
+[31m[1mCMake Error[0m at /home/rivindu/frontier_expo/catkin_ws/src/front_expo/CMakeLists.txt:209 (add_executable):
+  Cannot find source file:
+
+    src/talker.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/rivindu/frontier_expo/catkin_ws/src/front_expo/CMakeLists.txt:213 (add_executable):
+  Cannot find source file:
+
+    src/listener.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
 CMake Warning (dev) at CMakeLists.txt:211 (add_dependencies):
   Policy CMP0046 is not set: Error on non-existent dependency in
   add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
@@ -36,5 +54,11 @@ CMake Warning (dev) at CMakeLists.txt:215 (add_dependencies):
   "listener" does not exist.
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
+CMake Error: CMake can not determine linker language for target: talker
+CMake Error: Cannot determine link language for target "talker".
+CMake Error: CMake can not determine linker language for target: listener
+CMake Error: Cannot determine link language for target "listener".
 [36m--[0m Generating done
 [36m--[0m Build files have been written to: /home/rivindu/frontier_expo/catkin_ws/build/front_expo
+Makefile:922: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1
