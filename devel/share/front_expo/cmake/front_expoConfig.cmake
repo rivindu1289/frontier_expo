@@ -1,0 +1,1 @@
+/home/rivindu/frontier_expo/devel/.private/front_expo/share/front_expo/cmake/front_expoConfig.cmake

@@ -1,0 +1,6 @@
+devel_space: /home/rivindu/frontier_expo/devel
+install: false
+install_space: /home/rivindu/frontier_expo/install
+profile: default
+source_space: /home/rivindu/frontier_expo/src
+workspace: /home/rivindu/frontier_expo
