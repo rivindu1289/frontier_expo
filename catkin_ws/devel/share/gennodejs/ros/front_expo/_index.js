@@ -1,1 +1,0 @@
-/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/share/gennodejs/ros/front_expo/_index.js

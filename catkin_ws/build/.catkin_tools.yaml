@@ -1,6 +1,0 @@
-devel_space: /home/rivindu/frontier_expo/catkin_ws/devel
-install: false
-install_space: /home/rivindu/frontier_expo/catkin_ws/install
-profile: default
-source_space: /home/rivindu/frontier_expo/catkin_ws/src
-workspace: /home/rivindu/frontier_expo/catkin_ws

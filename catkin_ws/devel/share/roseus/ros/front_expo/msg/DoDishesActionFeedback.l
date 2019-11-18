@@ -1,1 +1,0 @@
-/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/share/roseus/ros/front_expo/msg/DoDishesActionFeedback.l

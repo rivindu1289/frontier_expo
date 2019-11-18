@@ -1,1 +1,0 @@
-/home/rivindu/frontier_expo/catkin_ws/devel/.private/front_expo/lib/python2.7/dist-packages/front_expo/msg/_DoDishesFeedback.py
